@@ -501,6 +501,10 @@ display:
         type: lunr_filters_search_index_json
         options:
           disable_search: 0
+      pager:
+        type: none
+        options:
+          offset: '0'
     cache_metadata:
       max-age: -1
       contexts:
