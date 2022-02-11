@@ -12,7 +12,7 @@ id: default
 label: Search
 path: /search
 view_id: lunr_search
-view_display_id: lunr_search_index_1
+view_display_id: lunr_filters_search_index_1
 index_fields:
   title:
     boost: 2
