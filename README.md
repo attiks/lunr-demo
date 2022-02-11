@@ -38,3 +38,7 @@ $settings['tome_static_directory'] = '../static';
 ## Manual setup
 
 Before installing remove the `$databases['default']['default']` from the settings.php file.
+
+## Screencast
+
+[![Screencast](https://img.youtube.com/vi/GTYDn9DAMFA/0.jpg)](https://youtu.be/GTYDn9DAMFA)
