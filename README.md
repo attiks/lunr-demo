@@ -2,7 +2,7 @@
 
 https://github.com/attiks/lunr-demo
 
-## Setup
+## Setup using [Docksal](https://docksal.io/)
 
 ```bash
 git clone git@github.com:attiks/lunr-demo.git
@@ -34,3 +34,7 @@ php -S localhost:8080 -t static
 $settings['config_sync_directory'] = dirname($app_root) . '/config';
 $settings['tome_static_directory'] = '../static';
 ```
+
+## Manual setup
+
+Before installing remove the `$databases['default']['default']` from the settings.php file.
