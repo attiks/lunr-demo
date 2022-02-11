@@ -10,9 +10,9 @@ cd lunr-demo
 fin start
 fin composer install
 fin drush -y si --existing-config
+fin drush devel-generate:terms --max-depth=1 --bundle=tags 10
+fin drush devel-generate:content --bundles=article 50
 fin uli
-fin drush devel-generate:terms --max-depth=1 10
-fin drush devel-generate:content 50
 ```
 
 - Open http://lunr-demo.docksal/admin/config/lunr_search/default/index to create the index.
@@ -20,7 +20,7 @@ fin drush devel-generate:content 50
 
 ```bash
 mkdir -p static
-drush tome:static --verbose
+drush tome:static --verbose -y
 php -S localhost:8080 -t static
 ```
 
