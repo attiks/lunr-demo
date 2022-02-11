@@ -7,10 +7,6 @@
 /html/profiles/contrib/
 /html/libraries/
 
-# Ignore sensitive information
-/html/sites/*/settings.php
-/html/sites/*/settings.local.php
-
 # Ignore Drupal's file directory
 /html/sites/*/files/
 
